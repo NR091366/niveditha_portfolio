@@ -1,0 +1,37 @@
+.explore-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+   }
+   
+   .explore-card {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 250px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 191, 255, 0.15);
+   }
+   
+   .explore-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 191, 255, 0.3);
+   }
+   
+   .explore-card h3 {
+    color: #00bfff;
+    margin-bottom: 0.5rem;
+   }
+
+   .about-caption {
+    font-size: 1rem;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-style: italic;
+   }

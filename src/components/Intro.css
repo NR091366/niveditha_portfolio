@@ -1,0 +1,49 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: 'Segoe UI', sans-serif;
+   }
+   
+   .chat-bubble {
+    max-width: 80%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    font-size: 16px;
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+    position: relative;
+   }
+   
+   .user {
+    align-self: flex-end;
+    background-color: #DCF8C6;
+    color: #000;
+   }
+   
+   .bot {
+    align-self: flex-start;
+    background-color: #2d2d2d;
+    color: #fff;
+   }
+   
+   .delay1 { animation-delay: 0.5s; }
+   .delay2 { animation-delay: 1.3s; }
+   .delay3 { animation-delay: 2.3s; }
+   .delay4 { animation-delay: 3.5s; }
+   .delay5 { animation-delay: 4.5s; }
+   .delay6 { animation-delay: 5.7s; }
+   .delay7 { animation-delay: 7s; }
+   
+   @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+   }

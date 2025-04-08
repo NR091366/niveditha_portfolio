@@ -1,0 +1,40 @@
+#container{
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 75vw;
+    position: relative;
+    height: 80vh;
+}
+
+.myProj{
+    text-align: center;
+    width: 50vw;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.projContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    color: aliceblue;
+    max-width: 75vw;
+}
+
+.projDesc{
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.projImg{
+    height: 3rem;
+    width: 3rem;
+}

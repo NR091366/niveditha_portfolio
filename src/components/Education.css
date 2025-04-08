@@ -1,0 +1,100 @@
+#about {
+    width: 100vw;
+    max-width: 80vw;
+    margin: 3rem auto 8rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   .aboutme {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+   }
+   
+   .section-divider {
+    width: 60px;
+    height: 3px;
+    background-color: #00BFFF;
+    border: none;
+    margin-bottom: 2rem;
+   }
+   
+   .section-divider.full {
+    width: 100%;
+    background-color: #ccc;
+    margin: 3rem 0 2rem;
+   }
+   
+   .heading {
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5rem;
+   }
+   
+   .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    justify-items: center;
+   }
+   
+   .info-card {
+    background-color: #2a2c2c;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 10px rgba(0, 191, 255, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+   }
+   
+   .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
+   }
+   
+   .card-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+   }
+   
+   .card-subtitle {
+    font-size: 0.9rem;
+    color: #ccc;
+   }
+
+   .back-button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    text-align: left;
+   }
+
+   .back-btn {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 191, 255, 0.15);
+    width: fit-content;
+   }
+   
+   .back-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
+    color: #00bfff;
+   }
